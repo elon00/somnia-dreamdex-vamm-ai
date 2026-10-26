@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "somnia-dreamdex-vamm-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Somnia Network",
+        "PROJECT_TICKER": "SOMVAMM"
+      },
+      "tools": [
+        {
+          "name": "verify_somvamm_invariants",
+          "description": "Verifies deterministic invariants for Somnia DreamDEX vAMM AI on Somnia Network."
+        },
+        {
+          "name": "execute_somvamm_action",
+          "description": "Executes authenticated DeFi state transition."
+        }
+      ]
+    }
+  }
+}

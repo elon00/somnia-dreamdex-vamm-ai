@@ -1,0 +1,9 @@
+[package]
+name = "somnia-dreamdex-vamm-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "Sub-millisecond virtual automated market maker (vAMM) on Somnia L1"
+license = "MIT"
+
+[dependencies]
